@@ -1,0 +1,40 @@
+>> A PARTIR DA LINHA 147
+
+<!-- INÍCIO SERVIÇOS -->
+        <section class="section" id="services">
+            <div class="container">
+                <div class="row margin-t-40">
+                    <div class="text-center">
+                        <h3 class="section-title">Serviços</h3>
+                        <p class="margin-t-40"></p>   
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <p><b>PÁGINAS WEB</b></p>
+                        <p>Manutenção e desenvolvimento de novas funcionalidades para sua página ou site.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p><b>SISTEMAS DE INFORMAÇÃO</b></p>
+                        <p>Aplicação dos recursos do JavaScript para otimizar funcionalidades.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p><b>INTERATIVIDADE</b></p>
+                        <p>Foco em fazer com que sua aplicação seja visualmente atraente e adequamente interativa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIM SERVIÇOS -->
+
+        <!-- INICIO EFEITO PARALLAX -->
+        <section class="parallax-window margin-t-40" data-parallax="scroll" data-image-src="imagens/img_servicos.png"></section>
+        <!-- FIM EFEITO PARALLAX -->
+
+>> LINHA 181 E 182
+
+ <!-- JAVASCRIPT -->
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/parallax.min.js"></script>
+      

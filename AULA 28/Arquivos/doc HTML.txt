@@ -1,0 +1,48 @@
+>> A PARTIR DA LINHA 178
+
+        <!-- INICIO PROJETOS-->
+        <section id="works">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center">
+                        <h3 class="section-title margin-t-40">Projetos</h3>   
+                        <p class="sub-title text-muted">Demostração dos principais projetos desenvolvidos. Abra a imagem para conferir uma breve descrição das funcionalidades e 
+                            técnologias aplicadas.
+                        </p>   
+                    </div>
+                </div>
+            </div>
+            <section>
+               <div class="container">  
+                    <div class="row"> 
+                        <ul>
+                            <li class="list active" data-filter="all">TODOS</li>
+                            <li class="list" data-filter="javascript">JAVASCRIPT</li>
+                            <li class="list" data-filter="html">HTML</li>
+                        </ul>
+
+                        <div class="img-gallery img-responsive">
+                            <div class="gallery itemBox javascript">
+                                <img class="worksImg" src="imagens/img_projeto1.png" alt="Projeto Calculadora desenvolvido
+                                com todas as operações de calculo desenvolvidas em JavaScript">
+                            </div>
+
+                            <div class="gallery itemBox javascript">
+                                <img class="worksImg" src="imagens/img_projeto2.png" alt="Técnologias usadas no desenvolvimento:
+                                HTML, CSS e JavaScript" >
+                            </div>
+
+                            <div class="gallery itemBox html">
+                                <img class="worksImg" src="imagens/img_projeto3.png" alt="Formulário HTML">
+                            </div>
+                        </div>
+                        
+                        <div id="worksModal" class="modal-img">
+                            <span class="close">&times;</span><img class="modal-content" id="modal" src="">
+                            <div id="caption"></div>
+                        </div>
+                    </div>  
+                </div> 
+            </section> 
+        </section>
+        <!-- FIM PROJETOS-->

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 name="título">Aqui temos um parágrafo</h1>
+    
+    <p name = "parágrafo">Aqui temos o segundo parágrafo</p>
+    <p name = "parágrafo">Aqui temos o terceiro parágrafo</p>
+    <p name = "parágrafo">Aqui temos o quarto parágrafo</p>
+    <div id = "minhaDiv">Minha div</div>
+    <br>
+
+    <script>
+        var p1 = document.getElementsByTagName('p')[0];
+        
+        document.write(p1.innerText);
+        
+        var d = document.getElementById("minhaDiv");
+        d.innerText = "Modificando a Div";
+        var p = document.getElementsByName("parágrafo")[1];
+        p.style.background = "pink";
+        var p = document.getElementsByName("parágrafo")[0];
+        p.style.background = "purple";
+        var p = document.getElementsByName("parágrafo")[2];
+        p.style.background = "red";
+        var h1 = document.getElementsByName("título")[0];
+        h1.style.color = "purple";
+        d.style.backgroundColor = "pink";
+    </script>
+</body>
+</html>

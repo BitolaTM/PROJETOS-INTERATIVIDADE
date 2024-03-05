@@ -1,0 +1,31 @@
+>> A partir da Linha 270
+
+  <!-- INICIO DEPOIMENTO -->
+        <section class="section margin-t-40">
+            <div class="container slideShow">
+                <div class="row">
+                    <div class="text-center"> 
+                        <div class="item text-center carrouselArea">
+                            <h4 class="testimony-desc" style="color: black;">Trabalho muito satisfatório, recomendo.</h4>
+                            <img src="imagens/img_depoimentos.png" class="center-block user-img img-circle" alt="teste">
+                        </div> 
+
+                        <div class="item text-center carrouselArea">
+                            <h4 class="testimony-desc" style="color: black;">Desenvolvimento de aplicações de ótima qualidade!</h4>
+                            <img src="imagens/img_depoimentos.png" class="center-block user-img img-circle" alt="testimonials-user">
+                        </div> 
+
+                        <div class="item text-center carrouselArea">
+                            <h4 class="testimony-desc" style="color: black;">Profissional incrível! Parabens pelo comprometimento com seus clientes.</h4>
+                            <img src="imagens/img_depoimentos.png" class="center-block user-img" alt="testimonials-user">
+                        </div> 
+
+                        <div>
+                            <span class="dot" onclick="correrSlide(1)"></span> 
+                            <span class="dot" onclick="correrSlide(2)"></span> 
+                            <span class="dot" onclick="correrSlide(3)"></span> 
+                        </div>
+                </div>
+            </div>
+        </section>
+    <!-- FIM DEPOIMENTO-->

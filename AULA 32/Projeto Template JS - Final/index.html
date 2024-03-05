@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Template JS</title>
+    <link rel="shortcut icon" href="imagens/img_icon.png">
+
+    <!--Estilos-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+
+<body data-spy="scroll" data-target="#data-scroll">
+
+    <!--INICIO NAVBAR-->
+    <div class="navbar navbar-custom" role="navigation" id="navbar">
+        <!-- Inicio Conteiner -->
+        <div class="container-fluid">
+            <!-- Inicio Navbar-header -->
+            <div class="navbar-header">
+                <!-- LOGO -->
+                <a class="navbar-brand logo" href="#home" id="logo">
+                    JS
+                </a>
+            </div>
+            <!-- Fim Navbar-header -->
+
+            <!-- Inicio menu -->
+            <div class="nav-wrap" id="data-scroll">
+                <ul class="navbar navbar-light bg-faded" style="list-style: none; ">
+                    <!-- Estilo Navbar -->
+                    <li>
+                        <a href="#aboutme">Sobre Mim</a>
+                    </li>
+                    <li>
+                        <a href="#services">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#works">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="#blog">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#contacts">Contatos</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Fim Menu -->
+        </div>
+        <!-- Fim Container -->
+    </div>
+    <!-- FIM NAVBAR -->
+
+    <!-- INICIO HOME -->
+    <section class="main-home" id="home">
+        <div class="home-bg"></div>
+        <img src="imagens/img_home.png" style="max-height: 104vh; width: 100%; margin-top:-5%;">
+        <div class="home-header-content">
+            <div class="container">
+                <div class="row">
+                    <h1 id="textH" class="textHome">SEJA BEM VINDO !</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIM HOME -->
+
+    <!-- INÍCIO SOBRE MIM -->
+    <section class="section" id="aboutme">
+        <div class="container">
+            <div class="row margin-t-40">
+                <div class="text-center">
+                    <h3 class="section-title">Sobre Mim</h3>
+                    <p class="sub-title text-muted">Ampla experiência na criação de aplicações da área de
+                        desenvolvimento de websites.
+                        Conhecido por superar as expectativas nos projetos em termos de resultado financeiro, prazos e
+                        todas
+                        as entregas relacionadas. Graduado em Desenvolvimento de Sistemas pela Instituição de Ensino
+                        ABCD.
+                        Disponível para mudanças para todo o Brasil e exterior.</p>
+                </div>
+            </div>
+            <div class="row margin-t-40">
+                <div class="col-md-4">
+                    <p class="text-muted about-t">Experiencia Profissional</p>
+                    <h4><b>Desnvolvimento Web</b></h4>
+                    <p class="text-muted about-desc">Desenvolvedor dedicado com 2 anos de experiência. Desenvolvimento
+                        de soluções
+                        estéticas e funcionais em aplicações web. Com foco em fazer com que seu site seja visualmente
+                        atraente e
+                        adequamente interativo. Na sua empresa, buscarei oportunidades semelhantes para otimizar
+                        funcionalidades
+                        e outros elementos do lado do cliente.</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="text-muted about-t">Linguagens de programação</p>
+                    <h4><b>JavaScript</b></h4>
+                    <p class="text-muted about-desc">Programação, desenvolvimento e manutenção de páginas e aplicações
+                        interativas
+                        utilizando os recursos da linguagem JavaScript. Quando bem estruturado, o uso desta linguagem de
+                        programação
+                        podem impactar diretamente na performace da sua página.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <p class="text-muted about-t">Outras Qualificações </p>
+                    <h4><b>Frameworks</b></h4>
+                    <p class="text-muted about-desc">Para garantir a qualidade no desenvolvimento em diversos segmentos
+                        e distintas
+                        aplicações, tenho experiencia no uso de framewoks como por exemplo o bootstrap. Usando destes
+                        conhecimentos,
+                        me comprometo em implementar funcionalidades especificas para atender as suas necessidades e
+                        entregar a sua empresa layouts adaptados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIM SOBRE MIM -->
+
+    <!-- INICIO IMAGEM -->
+    <section>
+        <img src="imagens/img_sobreMim.png" style="width: 100%; height: 250px;" class="img-responsive center-block">
+    </section>
+    <!-- FIM IMAGEM -->
+
+    <!-- INICIO CONTADOR DE RESULTADOS -->
+    <section class="result">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-white text-center padding-60">
+                    <h1><span class="counter" data-counter="999">0</span>+</h1>
+                    <h5>Linhas de Código</h5>
+                </div>
+
+                <div class="col-md-3 text-white text-center padding-60">
+                    <h1><span class="counter" data-counter="250">0</span>+</h1>
+                    <h5>Horas trabalhadas</h5>
+                </div>
+
+                <div class="col-md-3 text-white text-center padding-60">
+                    <h1 class="counter" data-counter="70">0</h1>
+                    <h5>Projetos Concluidos</h5>
+                </div>
+                <div class="col-md-3 text-white text-center padding-60">
+                    <h1><span class="counter" data-counter="120">0</span>+</h1>
+                    <h5>Copos de Café</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FIM CONTADOR DE RESULTADOS-->
+
+    <!-- INÍCIO SERVIÇOS -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="row margin-t-40">
+                <div class="text-center">
+                    <h3 class="section-title">Serviços</h3>
+                    <p class="margin-t-40"></p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <p><b>PÁGINAS WEB</b></p>
+                    <p>Manutenção e desenvolvimento de novas funcionalidades para sua página ou site.</p>
+                </div>
+                <div class="col-md-4">
+                    <p><b>SISTEMAS DE INFORMAÇÃO</b></p>
+                    <p>Aplicação dos recursos do JavaScript para otimizar funcionalidades.</p>
+                </div>
+                <div class="col-md-4">
+                    <p><b>INTERATIVIDADE</b></p>
+                    <p>Foco em fazer com que sua aplicação seja visualmente atraente e adequamente interativa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIM SERVIÇOS -->
+
+    <!-- INICIO EFEITO PARALLAX -->
+    <section class="parallax-window margin-t-40" data-parallax="scroll" data-image-src="imagens/img_servicos.png">
+    </section>
+    <!-- FIM EFEITO PARALLAX -->
+
+    <!-- INICIO PROJETOS-->
+    <section id="works">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <h3 class="section-title margin-t-40">Projetos</h3>
+                    <p class="sub-title text-muted">Demostração dos principais projetos desenvolvidos. Abra a imagem
+                        para conferir uma breve descrição das funcionalidades e
+                        técnologias aplicadas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <ul>
+                        <li class="list active" data-filter="all">TODOS</li>
+                        <li class="list" data-filter="javascript">JAVASCRIPT</li>
+                        <li class="list" data-filter="html">HTML</li>
+                    </ul>
+
+                    <div class="img-gallery img-responsive">
+                        <div class="gallery itemBox javascript">
+                            <img class="worksImg" src="imagens/img_projeto1.png" alt="Projeto Calculadora desenvolvido
+                                    com todas as operações de calculo desenvolvidas em JavaScript">
+                        </div>
+
+                        <div class="gallery itemBox javascript">
+                            <img class="worksImg" src="imagens/img_projeto2.png" alt="Técnologias usadas no desenvolvimento:
+                                    HTML, CSS e JavaScript">
+                        </div>
+
+                        <div class="gallery itemBox html">
+                            <img class="worksImg" src="imagens/img_projeto3.png" alt="Formulário HTML">
+                        </div>
+                    </div>
+
+                    <div id="worksModal" class="modal-img">
+                        <span class="close">&times;</span><img class="modal-content" id="modal" src="">
+                        <div id="caption"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- FIM PROJETOS-->
+
+    <!--INICIO BLOG-->
+    <section class="section margin-t-40" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <h3 class="section-title">Blog do desenvolvedor</h3>
+                    <p class="sub-title text-muted"></p>
+                </div>
+                <div id="loading" style="display: none">
+                    <div class="spinner-grow text-primary" role="status"></div>
+                </div>
+            </div>
+            <div class="row margin-t-20">
+                <div class="col-md-4">
+                    <div>
+                        <p class="margin-t-20"><span class="text-muted">20/04/2022</span> | JavaScript</p>
+                        <h4 class="padding-t-10">Dicas para não errar na hora da nomenclatura de variáveis no JS</h4>
+                        <div class="blog-border"></div>
+                        <p class="blog-desc text-muted">Conheça algumas regras para nomear suas variáveis no JavaScript
+                            e manter seu código organizado.</p>
+                        <a href="http://www.google.com" class="btn btn-custom btn-sm">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <p class="margin-t-20"><span class="text-muted">31/03/2022</span> | ECMAScript </p>
+                        <h4 class="padding-t-10">Lançamento da especificação ECMAScript (ES6)</h4>
+                        <div class="blog-border"></div>
+                        <p class="blog-desc text-muted">ECMAScript (ES6) adicionou as expressões arrow functions
+                            (funções de setas) ao JavaScript.</p>
+                        <button class="btn btn-custom btn-sm" onclick="redirecionarReplace()">Saiba mais</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <p class="margin-t-20"><span class="text-muted">15/03/2022</span> | Visual Studio Code</p>
+                        <h4 class="padding-t-10">Principais plugins que todos os desenvolvedores deve conhecer</h4>
+                        <div class="blog-border"></div>
+                        <p class="blog-desc text-muted">Saiba mais sobre os plugins mais usados pelos desenvolvedores
+                            JavaScript.</p>
+                        <button class="btn btn-custom btn-sm" onclick="redirecionarLoad()">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FIM BLOG-->
+
+    <!-- INICIO DEPOIMENTO -->
+    <section class="section margin-t-40">
+        <div class="container slideShow">
+            <div class="row">
+                <div class="text-center">
+                    <div class="item text-center carouselArea">
+                        <h4 class="testimony-desc" style="color: black;">Trabalho muito satisfatório, recomendo.</h4>
+                        <img src="imagens/img_depoimentos.png" class="center-block user-img img-circle" alt="teste">
+                    </div>
+
+                    <div class="item text-center carouselArea">
+                        <h4 class="testimony-desc" style="color: black;">Desenvolvimento de aplicações de ótima
+                            qualidade!</h4>
+                        <img src="imagens/img_depoimentos.png" class="center-block user-img img-circle"
+                            alt="testimonials-user">
+                    </div>
+
+                    <div class="item text-center carouselArea">
+                        <h4 class="testimony-desc" style="color: black;">Profissional incrível! Parabens pelo
+                            comprometimento com seus clientes.</h4>
+                        <img src="imagens/img_depoimentos.png" class="center-block user-img" alt="testimonials-user">
+                    </div>
+
+                    <div>
+                        <span class="dot" onclick="correrSlide(1)"></span>
+                        <span class="dot" onclick="correrSlide(2)"></span>
+                        <span class="dot" onclick="correrSlide(3)"></span>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- FIM DEPOIMENTO-->
+
+    <!-- INICIO FORMULÁRIO-->
+    <section class="section bg-gray-light" id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="text-center margin-t-20">
+                    <h3 class="section-title">Contatos</h3>
+                </div>
+            </div>
+
+            <form class="margin-t-20">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="username">Nome</label>
+                            <input type="text" class="form-control" id="username" placeholder="Nome" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="useremail">Email</label>
+                            <input type="email" class="form-control" id="useremail" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Digite o Assunto.." />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="message">Messagem</label>
+                            <textarea class="form-control" rows="5" id="message"
+                                placeholder="Sua Messagem...."></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-right">
+                        <input type="submit" class="submitBnt btn btn-custom" value="Enviar Mensagem">
+                    </div>
+                    <div class="margin-t-20 contact">
+                        <p class="text-contact">Preencha o formulário com as informações ou envie um e-mail para o
+                            endereço
+                            <b style="font-style: italic;">email@email.com.br</b>
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- FIM FOMULÁRIO -->
+
+    <!-- INICIO RODAPÉ -->
+    <footer class="footer bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="float-none">
+                    <p class="copy-rights">2022 ©JS. Todos os Direitos Reservados </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--FIM RODAPÉ -->
+
+    <!-- JAVASCRIPT -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+
+    <!-- CONFIGURAÇÃO DO PROJETO -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>

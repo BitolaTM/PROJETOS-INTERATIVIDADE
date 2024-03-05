@@ -1,0 +1,19 @@
+>>A partir da linha 93
+
+/*==== ANIMAÇÃO DAS LETRAS - 
+ FAZ COM QUE O CURSOR PISQUE AO FINAL DA FRASE ====*/
+ .textHome::after{
+  content: '|';
+  opacity: 1;
+  animation: pisca.7s infinite;
+  text-transform: uppercase;
+}
+
+@keyframes pisca{
+  0%, 100%{
+      opacity: 1;
+  }
+  50%{
+      opacity: 0;
+  }
+}

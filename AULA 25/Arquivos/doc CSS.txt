@@ -1,0 +1,26 @@
+>> A partir de linha 140
+
+/*==============================
+        CONTADOR DE RESULTADOS
+  =================================*/
+  .col-md-3 {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+ 
+  .counter {
+    animation-duration: 1s;
+    animation-delay: 0s;
+    color: #f5e61a;
+  }
+  
+  .padding-60{
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+
+  .result{
+    background: rgb(7, 119, 189);
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+  }

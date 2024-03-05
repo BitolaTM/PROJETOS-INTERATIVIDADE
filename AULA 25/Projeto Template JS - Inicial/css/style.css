@@ -1,0 +1,138 @@
+/*==============================
+        BODY
+  =================================*/
+
+  body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+  } 
+
+  .margin-t-40{
+    margin-top: 40px;
+  }
+ .margin-t-20{
+   margin-top: 20px;
+ }
+ /*==============================
+        LOGO
+  =================================*/
+
+  .logo {
+    font-size: 22px;
+    color: #fff;
+  }
+  
+  /*==============================
+        NAVBAR
+  =================================*/
+
+  .navbar-custom{
+    padding: 15px 0px;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+    margin-bottom: 0px;
+    position: fixed; /* Faz com que a posição da navbar seja fixa ao cabeçalho da página*/
+  }
+  
+  .navbar-custom .navbar-light li a {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    border-bottom: 3px solid transparent;
+    background-color: transparent !important;
+    padding: 7px 0;
+    margin: 0 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration-line: none;
+  }
+
+  .navbar-custom>.container-fluid{
+    width: 90%;
+  }
+
+  .navbar-custom .navbar-light li a:hover {
+    color: #f5e61a;
+  }
+
+   
+  /*==============================
+        HOME
+  =================================*/
+
+  .home-bg{
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    opacity: 0.40;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .main-home {
+      height: 100vh;
+      padding: 60px 0;
+      z-index: 1;
+      text-align: center;
+      position: relative;
+      color: #fff;
+      background: #000;
+      min-height: 400px;
+  }
+
+  .home-header-content {
+      transform: translateY(-50%);
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+  }
+
+/*==== ANIMAÇÃO DAS LETRAS - 
+ FAZ COM QUE O CURSOR PISQUE AO FINAL DA FRASE ====*/
+ .textHome::after{
+  content: '|';
+  opacity: 1;
+  animation: pisca.7s infinite;
+  text-transform: uppercase;
+}
+
+@keyframes pisca{
+  0%, 100%{
+      opacity: 1;
+  }
+  50%{
+      opacity: 0;
+  }
+}
+
+ /*==============================
+        SOBRE MIM
+  =================================*/
+
+  .section-title {
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .sub-title {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 10px;
+  }
+
+  .about-t {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .about-desc{
+    line-height: 24px;
+    padding-top: 10px;
+    text-align: justify;
+    margin-inline-end: 15px;
+  }

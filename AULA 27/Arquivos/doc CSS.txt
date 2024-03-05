@@ -1,0 +1,16 @@
+>> A PARTIR DA LINHA 165
+
+/*==============================
+        SERVÇOS
+  =================================*/
+  #services{
+    line-height: 24px;
+    padding-top: 10px;
+    text-align: justify;
+    margin-inline-end: 15px;
+  }
+
+  .parallax-window {
+    min-height: 400px;
+    background: transparent;
+  }

@@ -1,0 +1,46 @@
+>> A partir da Linha 225
+
+  <!--INICIO BLOG-->
+        <section class="section margin-t-40" id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center">
+                        <h3 class="section-title">Blog do desenvolvedor</h3>   
+                        <p class="sub-title text-muted"></p>   
+                    </div>
+                    <div id="loading" style="display: none">
+                        <div class="spinner-grow text-primary" role="status"></div>
+                    </div>
+                </div>
+                <div class="row margin-t-20">
+                    <div class="col-md-4">
+                        <div>
+                            <p class="margin-t-20"><span class="text-muted">20/04/2022</span> | JavaScript</p>
+                            <h4 class="padding-t-10">Dicas para não errar na hora da nomenclatura de variáveis no JS</h4>   
+                            <div class="blog-border"></div>                                       
+                            <p class="blog-desc text-muted">Conheça algumas regras para nomear suas variáveis no JavaScript e manter seu código organizado.</p>
+                            <a href="http://www.google.com" class="btn btn-custom btn-sm">Saiba mais</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                            <p class="margin-t-20"><span class="text-muted">31/03/2022</span> | ECMAScript </p>
+                            <h4 class="padding-t-10">Lançamento da especificação ECMAScript (ES6)</h4>   
+                            <div class="blog-border"></div>                                       
+                            <p class="blog-desc text-muted">ECMAScript (ES6) adicionou as expressões arrow functions (funções de setas) ao JavaScript.</p>
+                            <button class="btn btn-custom btn-sm" onclick="redirecionarReplace()">Saiba mais</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                            <p class="margin-t-20"><span class="text-muted">15/03/2022</span> | Visual Studio Code</p>
+                            <h4 class="padding-t-10">Principais plugins que todos os desenvolvedores deve conhecer</h4>   
+                            <div class="blog-border"></div>                                       
+                            <p class="blog-desc text-muted">Saiba mais sobre os plugins mais usados pelos desenvolvedores JavaScript.</p>
+                            <button class="btn btn-custom btn-sm" onclick="redirecionarLoad()">Saiba mais</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--FIM BLOG-->

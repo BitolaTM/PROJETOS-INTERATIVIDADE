@@ -1,0 +1,25 @@
+>>A partir da linha 303
+
+/*=======================================
+     BLOG
+  =======================================*/
+
+.blog-desc{
+	line-height: 26px;
+}
+
+.blog-border{
+	height: 1px;
+	background-color: #dedede;
+	margin: 18px 0;
+	width: 60px;
+}
+
+.btn-sm {
+  padding: 5px 10px;
+  background-color: #bbb;
+}
+
+#loading{
+  text-align: center;
+}

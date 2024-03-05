@@ -1,0 +1,120 @@
+.body{
+  background-color: rgb(31, 31, 31);
+}
+.counter{
+  color: wheat;
+}
+.botao{
+  color: antiquewhite;
+}
+.botaozin{
+  color: wheat;
+}
+.imagem_carrosel{
+    width: 10%;
+    height: 10%;
+}
+.coluna {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.linha:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.textHome{
+  color: wheat;
+  text-align: center;
+  padding-top: 7.5%;
+}
+.textHome::after{
+  content: '|';
+  opacity: 1;
+  animation: pisca.7s infinite;
+  text-transform: uppercase;
+}
+@keyframes pisca{
+  0%, 100%{
+      opacity: 1;
+  }
+  50%{
+      opacity: 0;
+  }
+}
+.home-bg{
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  opacity: 0.40;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+#services{
+  line-height: 24px;
+  padding-top: 10px;
+  text-align: justify;
+  margin-inline-end: 15px;
+  color: wheat;
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+#overlay {
+  border: 1px solid wheat;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-image: url('imagens/1.jpg');
+  background-repeat: no-repeat;
+}
+#imag{
+  border-radius: 50px;
+  padding: 40px;
+}
+#tom{
+  padding: 10px;
+}
+#ini{
+  color: wheat;
+  text-align: center;
+}
+#t{
+  color: antiquewhite;
+  word-wrap:break-word;
+  padding-right: 30px;
+}
+#ali{
+  color: antiquewhite;
+}
+#hm{
+  width: 18rem;
+  background-color: #212529;
+}
+#bt{
+  font-size: large;
+  font-weight:600;
+  background-color:rgb(170, 177, 184);
+  border-color: rgb(31, 31, 31);
+  color: #212529;
+}
+#bt:hover{
+  background-color: #6c757d;
+  border-color: antiquewhite;
+  color: antiquewhite;
+}
+#rod{
+  padding: 20px;
+}
+#rdp{
+  border-color: antiquewhite;
+  padding: 20px;
+  text-align: center; 
+  color: wheat; 
+  background-color: #212529;
+}
